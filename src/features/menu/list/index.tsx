@@ -28,6 +28,7 @@ const useStyles = createStyles((theme, params: { position?: MenuPosition; itemCo
     fontFamily: 'Albert Sans',
     width: 384,
     height: 'fit-content',
+    maxHeight: '75vh',
   },
   buttonsWrapper: {
     height: 'fit-content',
