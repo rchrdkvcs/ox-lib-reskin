@@ -20,7 +20,6 @@ const useStyles = createStyles(() => ({
     right: '64px',
     width: 384,
     height: 'fit-content',
-    maxHeight: '75vh',
     transform: 'translateY(-50%)',
   },
   header: {
@@ -45,6 +44,7 @@ const useStyles = createStyles(() => ({
     overflowY: 'scroll',
     backgroundColor: 'rgba(0, 0, 0, 0.75)',
     borderRadius: 16,
+    maxHeight: '60vh',
   },
   buttonsFlexWrapper: {
     gap: 0,

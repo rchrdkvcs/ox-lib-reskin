@@ -28,11 +28,10 @@ const useStyles = createStyles((theme, params: { position?: MenuPosition; itemCo
     fontFamily: 'Albert Sans',
     width: 384,
     height: 'fit-content',
-    maxHeight: '75vh',
   },
   buttonsWrapper: {
     height: 'fit-content',
-    maxHeight: 415,
+    maxHeight: '60vh',
     overflow: 'hidden',
     borderRadius: 16,
     backgroundColor: 'rgba(0, 0, 0, 0.75)',
