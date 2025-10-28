@@ -20,6 +20,7 @@ const useStyles = createStyles(() => ({
     right: '64px',
     width: 384,
     height: 'fit-content',
+    maxHeight: '75vh',
     transform: 'translateY(-50%)',
   },
   header: {
